@@ -35,10 +35,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    dexOptions {
-        jumboMode = true
-        javaMaxHeapSize "4g"
-    }
+    
     aaptOptions {
         noCompress "dat", "bin", "pak"
     }
